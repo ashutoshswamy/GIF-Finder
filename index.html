@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIF Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="icon" href="./assets/Logo.png" />
+  </head>
+  <body>
+    <script src="./index.js" type="text/javascript"></script>
+    <h1 class="title">GIF Finder</h1>
+    <h4 class="alert">
+      When you click on the button it<br />may take some time to load the GIF
+    </h4>
+    <div class="gifdiv">
+      <img id="img" />
+    </div>
+    <a id="gifhref"><h4 id="giflink" class="giflink"></h4></a>
+    <a id="giforghref"><h4 id="giforglink" class="giforglink"></h4></a>
+    <div class="inputdiv">
+      <input id="input" placeholder="Enter search query" type="text" />
+    </div>
+    <div class="buttondiv">
+      <button onclick="showGIF()">Search</button>
+    </div>
+    <h4 class="notice">
+      All the GIFs shown here<br />taken from
+      <a href="https://tenor.com">tenor.com</a>
+    </h4>
+  </body>
+</html>

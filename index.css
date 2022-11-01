@@ -1,0 +1,62 @@
+body {
+  background-color: #fd841f;
+  font-family: "Poppins", sans-serif;
+}
+
+h1.title {
+  padding-top: 25px;
+  text-align: center;
+  color: #3e6d9c;
+}
+
+h4.alert {
+  padding-top: 10px;
+  text-align: center;
+  color: #3e6d9c;
+}
+
+div.gifdiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+h4.giflink {
+  padding-top: 10px;
+  text-align: center;
+  color: #3e6d9c;
+}
+
+h4.giforglink {
+  text-align: center;
+  color: #3e6d9c;
+}
+
+div.inputdiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  height: 25px;
+  width: 200px;
+}
+
+div.buttondiv {
+  padding-top: 10px;
+  text-align: center;
+}
+
+button {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  height: 25px;
+  width: 200px;
+}
+
+h4.notice {
+  padding-top: 10px;
+  text-align: center;
+  color: #3e6d9c;
+}
