@@ -1,62 +1,76 @@
 body {
-  background-color: #fd841f;
   font-family: "Poppins", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1.title {
-  padding-top: 25px;
-  text-align: center;
-  color: #3e6d9c;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
 
-h4.alert {
-  padding-top: 10px;
-  text-align: center;
-  color: #3e6d9c;
-}
-
-div.gifdiv {
-  padding-top: 10px;
+h4.alert,
+h4.notice {
+  color: #b0b0b0;
+  margin: 5px 0;
   text-align: center;
 }
 
-h4.giflink {
-  padding-top: 10px;
-  text-align: center;
-  color: #3e6d9c;
+.gifdiv {
+  margin: 20px 0;
 }
 
-h4.giforglink {
-  text-align: center;
-  color: #3e6d9c;
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-div.inputdiv {
-  padding-top: 10px;
-  text-align: center;
+.giflink,
+.giforglink {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.giflink:hover,
+.giforglink:hover {
+  text-decoration: underline;
+}
+
+.inputdiv {
+  margin: 20px 0;
 }
 
 input {
-  text-align: center;
   font-family: "Poppins", sans-serif;
-  height: 25px;
-  width: 200px;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: #e0e0e0;
+  width: 300px;
 }
 
-div.buttondiv {
-  padding-top: 10px;
-  text-align: center;
+.buttondiv {
+  margin-top: 20px;
 }
 
 button {
-  text-align: center;
   font-family: "Poppins", sans-serif;
-  height: 25px;
-  width: 200px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-h4.notice {
-  padding-top: 10px;
-  text-align: center;
-  color: #3e6d9c;
+button:hover {
+  background-color: #0056b3;
 }
