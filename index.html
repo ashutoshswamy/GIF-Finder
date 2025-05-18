@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./index.css" />
@@ -16,26 +16,34 @@
     <script src="./index.js" type="text/javascript" defer></script>
   </head>
   <body>
-    <h1 class="title">GIF Finder</h1>
-    <h4 class="alert">
-      When you click on the button it<br />may take some time to load the GIF
-    </h4>
-    <div class="gifdiv">
-      <img id="img" alt="GIF will appear here" />
+    <div class="container">
+      <p class="alert">
+        Please allow a moment for your perfect GIF to load after clicking search
+      </p>
+
+      <div class="search-container">
+        <div class="inputdiv">
+          <input
+            id="input"
+            placeholder="What GIF are you looking for?"
+            type="text"
+          />
+        </div>
+        <div class="buttondiv">
+          <button onclick="showGIF()">Find GIF</button>
+        </div>
+      </div>
+
+      <div class="gifdiv">
+        <img id="img" alt="Your awesome GIF will appear here" />
+      </div>
+
+      <p class="notice">
+        Powered by
+        <a href="https://tenor.com" target="_blank" rel="noopener noreferrer"
+          >tenor.com</a
+        >
+      </p>
     </div>
-    <a id="gifhref" href="#"><h4 id="giflink" class="giflink"></h4></a>
-    <a id="giforghref" href="#"><h4 id="giforglink" class="giforglink"></h4></a>
-    <div class="inputdiv">
-      <input id="input" placeholder="Enter search query" type="text" />
-    </div>
-    <div class="buttondiv">
-      <button onclick="showGIF()">Search</button>
-    </div>
-    <h4 class="notice">
-      All the GIFs shown here<br />taken from
-      <a href="https://tenor.com" target="_blank" rel="noopener noreferrer"
-        >tenor.com</a
-      >
-    </h4>
   </body>
 </html>
